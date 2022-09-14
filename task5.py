@@ -30,5 +30,6 @@ for i in range (0,len(pol2_list)):
 print(pol1_list_r1)
 print(pol1_list_r2)
 
-if pol1_list_r1 contains ",":
-    
+print(pol1_list_r1[0])
+list_int=[int(item) for item in pol1_list_r1[0]]
+print(list_int)
